@@ -1,0 +1,30 @@
+2020-04-05 16:08:40,728 INFO  [StepDefinitions] Start test 
+2020-04-05 16:08:48,214 INFO  [StepDefinitions] Click on the first result 
+2020-04-05 16:08:48,321 INFO  [StepDefinitions] End test passed 
+2020-04-05 16:19:35,819 INFO  [Log] **************************************************************************************** 
+2020-04-05 16:19:35,819 INFO  [Log] **************************************************************************************** 
+2020-04-05 16:19:35,820 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Selection Test       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2020-04-05 16:19:35,820 INFO  [Log] **************************************************************************************** 
+2020-04-05 16:19:35,820 INFO  [Log] **************************************************************************************** 
+2020-04-05 16:20:12,832 INFO  [Log] Start test 
+2020-04-05 16:20:28,705 INFO  [Log] Click on the first result 
+2020-04-05 16:20:28,731 INFO  [Log] End test passed 
+2020-04-05 16:21:57,342 INFO  [Log] **************************************************************************************** 
+2020-04-05 16:21:57,342 INFO  [Log] **************************************************************************************** 
+2020-04-05 16:21:57,342 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Selection Test       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2020-04-05 16:21:57,343 INFO  [Log] **************************************************************************************** 
+2020-04-05 16:21:57,343 INFO  [Log] **************************************************************************************** 
+2020-04-05 16:22:05,559 INFO  [Log] Start test 
+2020-04-05 16:22:13,137 INFO  [Log] Click on the first result 
+2020-04-05 16:22:13,279 INFO  [Log] End test passed 
+2020-04-05 16:35:22,448 INFO  [StepDefinitions] Start test 
+2020-04-05 16:35:29,089 INFO  [StepDefinitions] Click on the first result 
+2020-04-05 16:35:29,207 INFO  [StepDefinitions] End test passed 
+2020-04-06 16:46:42,128 INFO  [StepDefinitions] Start test 
+2020-04-06 16:48:57,965 INFO  [StepDefinitions] Start test 
+2020-04-06 16:55:09,406 INFO  [StepDefinitions] Start test 
+2020-04-06 16:56:33,530 INFO  [StepDefinitions] Click on the first result 
+2020-04-06 16:57:44,679 INFO  [StepDefinitions] End test passed 
+2020-04-06 17:05:09,157 INFO  [StepDefinitions] Start test 
+2020-04-06 17:05:16,432 INFO  [StepDefinitions] Click on the first result 
+2020-04-06 17:08:44,089 INFO  [StepDefinitions] End test passed 
