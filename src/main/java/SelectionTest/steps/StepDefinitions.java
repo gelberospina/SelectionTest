@@ -71,6 +71,19 @@ public class StepDefinitions {
         
     }
 
+    @And("^The suggestion list is displayed$")
+    public void the_suggestion_list_is_displayed(){
+        try{
+            SearchPage searchPage = new SearchPage(driver);
+            BusinessController businessController = new BusinessController(driver);
+            assertTrue(businessController.verifySuggestionsList(searchPage));
+            System.out.println(STEPSUCCESSFUL + " I click on the first suggestion in the list");
+        }catch(Exception e){
+            System.out.println(STEPFAILED + " I click on the first suggestion in the list");
+            e.printStackTrace();
+        }
+    }
+
     @And("^I click on the first suggestion in the list$")
     public void i_click_on_the_first_suggestion_in_the_list(){
         try{
@@ -89,7 +102,7 @@ public class StepDefinitions {
     public void i_go_to_search_results_page(){
         try{
             BusinessController businessController = new BusinessController(driver);
-            businessController.validateResultPage();
+            assertTrue(businessController.validateResultPage());
             System.out.println(STEPSUCCESSFUL + " I verify go to result page");
         }catch(Exception e){
             System.out.println(STEPFAILED + " I verify go to result page");
@@ -131,7 +144,5 @@ public class StepDefinitions {
             System.out.println(STEPFAILED + " I go to the "+"namePage"+" page");
             e.printStackTrace();
         }
-
     }
-
 }

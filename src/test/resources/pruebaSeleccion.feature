@@ -18,7 +18,7 @@ Examples:
 Scenario Outline: User can search by using the suggestions
 Given I am on the homepage
 When I type "<infoSearched>" into the search field
-And I click google search buttom
+And The suggestion list is displayed
 And I click on the first suggestion in the list
 Then I go to search results page
 And I verify the first result

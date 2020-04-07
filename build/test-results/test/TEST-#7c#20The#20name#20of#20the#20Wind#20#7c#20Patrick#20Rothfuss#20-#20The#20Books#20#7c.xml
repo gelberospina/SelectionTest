@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="| The name of the Wind | Patrick Rothfuss - The Books |" tests="8" skipped="0" failures="2" errors="0" timestamp="2020-04-07T21:48:17" hostname="Gabriel-PC" time="16.82">
+  <properties/>
+  <testcase name="Given I am on the homepage" classname="| The name of the Wind | Patrick Rothfuss - The Books |" time="0.001"/>
+  <testcase name="When I type &quot;The name of the Wind&quot; into the search field" classname="| The name of the Wind | Patrick Rothfuss - The Books |" time="0.0"/>
+  <testcase name="And I click google search buttom" classname="| The name of the Wind | Patrick Rothfuss - The Books |" time="0.0"/>
+  <testcase name="Then I go to search results page" classname="| The name of the Wind | Patrick Rothfuss - The Books |" time="0.0"/>
+  <testcase name="And I verify the first result" classname="| The name of the Wind | Patrick Rothfuss - The Books |" time="0.0"/>
+  <testcase name="When I click the first result link" classname="| The name of the Wind | Patrick Rothfuss - The Books |" time="0.0"/>
+  <testcase name="Then I go to the &quot;Patrick Rothfuss - The Books&quot; page" classname="| The name of the Wind | Patrick Rothfuss - The Books |" time="0.004">
+    <failure message="junit.framework.AssertionFailedError" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.Assert.assertTrue(Assert.java:31)
+	at SelectionTest.steps.StepDefinitions.i_go_to_the_page(StepDefinitions.java:141)
+	at ✽.Then I go to the &quot;Patrick Rothfuss - The Books&quot; page(pruebaSeleccion.feature:11)
+</failure>
+  </testcase>
+  <testcase name="classMethod" classname="| The name of the Wind | Patrick Rothfuss - The Books |" time="35.645">
+    <failure message="junit.framework.AssertionFailedError" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.Assert.assertTrue(Assert.java:31)
+	at SelectionTest.steps.StepDefinitions.i_go_to_the_page(StepDefinitions.java:141)
+	at ✽.Then I go to the &quot;Patrick Rothfuss - The Books&quot; page(pruebaSeleccion.feature:11)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[log4j:WARN No appenders could be found for logger (io.github.bonigarcia.wdm.WebDriverManager).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Starting ChromeDriver 80.0.3987.16 (320f6526c1632ad4f205ebce69b99a062ed78647-refs/branch-heads/3987@{#185}) on port 36712
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1586296094.336][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586296094.504][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586296094.606][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586296094.864][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586296094.982][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586296095.084][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586296095.186][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586296095.288][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586296095.476][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586296095.667][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586296095.769][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586296095.871][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586296095.973][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586296096.148][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586296096.250][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586296096.355][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586296096.457][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586296096.584][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586296096.686][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586296096.787][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586296096.890][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586296096.993][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586296097.095][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586296097.198][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+</testsuite>

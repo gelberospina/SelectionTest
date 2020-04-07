@@ -17,6 +17,9 @@ public class SearchPage {
     @FindBy (xpath = "(//ul[@class='erkvQe']//div[@class='sbtc']//span)[1]")
     private WebElement textSuggestions;
 
+    @FindBy (xpath = "//ul[@class='erkvQe']")
+    public WebElement listSuggestions;
+
     @FindBy (xpath = "//input[@class='gNO89b']")
     private WebElement buttonSearch;
 

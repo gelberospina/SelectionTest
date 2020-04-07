@@ -3,6 +3,9 @@ package SelectionTest.controller;
 import SelectionTest.pages.SearchPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
+
+import java.util.concurrent.TimeUnit;
+
 import static org.junit.Assert.assertTrue;
 
 
@@ -15,19 +18,23 @@ public class BusinessController {
         PageFactory.initElements(driver, this);
     }
 
-    public void validateResultPage() {
+    public boolean validateResultPage() {
         try{
-            assertTrue(driver.getTitle().contains("Google"));
+            return driver.getTitle().contains("Google");
         }catch(Exception e){
             e.printStackTrace();
+            return false;
         }
     }
 
-    public void verifyNamePage(SearchPage searchPage, String namePage) {
-        try {
-            assertTrue(searchPage.productTitle().contains(namePage));
-        }catch (Exception e){
-            System.out.println("Verify the name page failed" + e);
+    public boolean verifySuggestionsList(SearchPage searchPage) {
+        try{
+            driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+            return searchPage.listSuggestions.isEnabled();
+        }catch(Exception e){
+            e.printStackTrace();
+            return false;
         }
     }
+
 }
